@@ -1,0 +1,33 @@
+{
+  "name": "sas-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Gio_A",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.10.0",
+    "@notionhq/client": "^0.4.4",
+    "discord.js": "^13.8.0",
+    "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.4.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "gtts": "^0.1.1",
+    "libsodium-wrappers": "^0.7.10",
+    "node-addon-api": "^4.2.0",
+    "node-gtts": "^2.0.2",
+    "node-pre-gyp": "^0.17.0",
+    "nodemon": "^2.0.16",
+    "opusscript": "^0.0.8",
+    "prism-media": "^1.3.2",
+    "sodium": "^3.0.2",
+    "sodium-native": "^3.3.0",
+    "tweetnacl": "^1.0.3"
+  }
+}
